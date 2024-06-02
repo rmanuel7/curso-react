@@ -1,8 +1,9 @@
+import { FollowCard } from "./FollowCard";
 
 function App() {
   return (
     <>
-      <h1>Helo React</h1>
+      <FollowCard prefix='rmanuel' username='Robinson Batista M' />
     </>
   )
 }
