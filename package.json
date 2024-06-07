@@ -12,5 +12,11 @@
   "devDependencies": {
     "standard": "^17.1.0"
   },
-  "eslintConfig":"./node_modules/standard/eslintrc.json"
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "rules": {
+      "indent": ["error", 2],
+      "react/jsx-indent": ["error", 2]
+    }
+  }
 }
