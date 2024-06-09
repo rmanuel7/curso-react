@@ -1,0 +1,26 @@
+{
+  "name": "07-react-route",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@testing-library/react": "16.0.0",
+    "happy-dom": "14.12.0",
+    "vite": "^5.2.0",
+    "vitest": "1.6.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react-swc": "3.7.0",
+    "bootstrap": "5.3.3",
+    "bootstrap-icons": "1.11.3",
+    "path-to-regexp": "6.2.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

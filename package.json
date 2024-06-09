@@ -15,8 +15,8 @@
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json",
     "rules": {
-      "indent": ["error", 2],
-      "react/jsx-indent": ["error", 2]
+      "indent": ["error", 4],
+      "react/jsx-indent": ["error", 4]
     }
   }
 }
